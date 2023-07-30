@@ -1,0 +1,33 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 83vw;
+  background: white;
+  align-items: center;
+  padding: 10px;
+  p {
+    color: #45464e;
+    /* subHeading 3/Medium */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+.breadCrumbs {
+  border-top: 1px solid var(--stroke, #f1f3f9);
+  background: #fff;
+  padding-left: 10px;
+}
+.mainbutton {
+  border-radius: 8px;
+  background: var(--secondary-20, #fef5ea);
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

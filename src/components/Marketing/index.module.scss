@@ -1,0 +1,27 @@
+.marketting {
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+//   padding: 3px;
+  width: 49%;
+}
+.top,
+.values,
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.top{
+    width: 90%;
+}
+.values {
+  width: 70%;
+}
+
+.item {
+//   gap: 5px;
+}

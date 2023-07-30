@@ -1,0 +1,32 @@
+.dashboard {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.marketting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 66%;
+}
+.doubleCard {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: 100%;
+}
